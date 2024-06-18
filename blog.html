@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plane Mane – Et Eventyrlig Spillutviklingsprosjekt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header, footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        main {
+            padding: 2em;
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1em 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            display: inline;
+            margin: 0 1em;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Plane Mane – Et Eventyrlig Spillutviklingsprosjekt</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Introduksjon</h2>
+            <p>Velkommen til bloggen vår, der vi deler innsikt om utviklingen av vårt spill "Plane Mane" – et horisontalt rullende spill satt i en verden av skyer, trær og rullebaner. Dette prosjektet er en del av INF112-kurset, og vårt team, 4GILE, har jobbet hardt for å bringe dette spillet til live.</p>
+        </section>
+        <section>
+            <h2>Team og Roller</h2>
+            <p><strong>Teamnavn:</strong> 4GILE</p>
+            <p><strong>Gruppenummer:</strong> 5</p>
+            <p><strong>Teammedlemmer:</strong></p>
+            <ul>
+                <li>Tech lead: Magnus Haaland</li>
+                <li>Project lead: Ida Karoline Løken</li>
+                <li>Customer contact: Ole Eiane</li>
+                <li>Team lead: Hanna Søndenaa Rasmussen</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Om Spillet: Plane Mane</h2>
+            <p>Plane Mane er et spennende horisontalt rullende spill der spilleren styrer et fly som må navigere gjennom et landskap fylt med hindringer og samle energigjenstander og poeng. Målet er å unngå fugler og andre farer mens man øker poengsummen.</p>
+            <h3>Slik spiller du spillet:</h3>
+            <ul>
+                <li><strong>Start spillet:</strong> Åpne spillet ved å kjøre Main.java fra IDE eller med Maven gjennom kommandoen <code>mvn exec:java@run-app</code>.</li>
+                <li><strong>Kontroller flyet:</strong> Bruk piltastene eller WASD for å bevege flyet og unngå hindringer.</li>
+                <li><strong>Samle objekter:</strong> Treffer energigjenstander og poengobjekter for å øke liv og score.</li>
+                <li><strong>Unngå fugler:</strong> Pass på de to forskjellige typene fugler som kan redusere flyets liv ved kontakt.</li>
+                <li><strong>Økt vanskelighetsgrad:</strong> Etter hvert som tiden går i spillet, øker sjansen for at rosa fugler dukker opp, og det samme gjelder energigjenstander og poengobjekter.</li>
+                <li><strong>Restart spillet:</strong> Hvis du taper, kan du starte spillet på nytt ved å trykke på 'Space'.</li>
+            </ul>
+            <img src="path/to/screenshot1.jpg" alt="Skjermbilde av Plane Mane">
+            <img src="path/to/screenshot2.jpg" alt="Skjermbilde av Plane Mane">
+        </section>
+        <section>
+            <h2>Prosjektarbeid</h2>
+            <h3>Hvordan fungerer rollene i teamet?</h3>
+            <p>Rollene i teamet vårt har fungert veldig bra. Vi trengte ikke oppdatere rollene som team lead (Hanna), tech lead (Magnus), kundekontakt (Ole) eller project lead (Ida). Hver rolle har klart ansvar som har hjulpet oss med å holde arbeidet strukturert og effektivt.</p>
+        </section>
+        <section>
+            <h2>Erfaringer og Prosjektmetodikk</h2>
+            <h3>Oblig 2:</h3>
+            <p>Vi innså at vår opprinnelige prosjektmetodikk ikke var optimal og byttet til en ny metode. Den gamle metoden involverte å jobbe på separate branches og deretter merge inn i main, noe som skapte problemer med overlappende endringer. Den nye metoden vår innebærer å lage en ny branch for hver arbeidsoppgave og merge inn i main når oppgaven er ferdig.</p>
+            <h3>Oblig 3:</h3>
+            <p>Vi returnerte til den opprinnelige metoden etter hvert som vi kom lenger i prosjektet og arbeidsoppgavene ble mer konkrete.</p>
+            <h3>Oblig 4:</h3>
+            <p>Vi har fokusert på å skrive tester for applikasjonen vår, og har oppnådd en testdekning på hele 84%.</p>
+        </section>
+        <section>
+            <h2>Gruppedynamikk og Kommunikasjon</h2>
+            <p>Gruppedynamikken vår er god. Vi kjenner hverandre godt og kan enkelt uttrykke bekymringer eller be om hjelp. Kommunikasjonen har vært utfordrende når vi har jobbet remote, men vi har håndtert det ved å bruke tydelige meldinger og videosamtaler.</p>
+        </section>
+        <section>
+            <h2>Retrospektiv</h2>
+            <h3>Hva har vi gjort bra?</h3>
+            <ul>
+                <li><strong>Teamarbeid og roller:</strong> Klare roller og ansvar har hjulpet oss å møte deadlines og håndtere utfordringer effektivt.</li>
+                <li><strong>Teknologi og verktøyvalg:</strong> Valg av libGDX og Asset Manager har vært avgjørende for effektiv ressursforvaltning.</li>
+                <li><strong>Tilpasningsevne:</strong> Vi har vært gode på å tilpasse oss og endre vår utviklingsmetodikk etter behov.</li>
+            </ul>
+            <h3>Hva ville vi gjort annerledes?</h3>
+            <ul>
+                <li><strong>Sterkere kodebase fra starten av:</strong> Investert mer tid i å etablere en solid arkitektur fra starten.</li>
+                <li><strong>Forbedret testing fra starten av:</strong> Innført testing tidligere for å identifisere og løse problemer raskere.</li>
+                <li><strong>Bedre håndtering av remote arbeid:</strong> Sørget for at alle teammedlemmer følte seg like involvert og oppdatert.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Konklusjon</h2>
+            <p>Alt i alt har dette prosjektet vært en verdifull læringsopplevelse. Vi har utviklet både tekniske ferdigheter og evnen til å arbeide effektivt i team. Vi tar med oss disse erfaringene videre til fremtidige prosjekter. Vi er takknemlige for en spennende og givende semesteroppgave, og vi takker Anya Helene Bragge og gruppeledere for dette!</p>
+            <p>Vi håper at vår innsats inspirerer andre studenter til å ta fatt på lignende prosjekter og oppleve gleden ved spillutvikling. Takk for at du leser bloggen vår, og vi ser frem til å dele mer om våre fremtidige prosjekter!</p>
+        </section>
+        <ul>
+            <li><a href="../blog.html">Tilbake til bloggen</a></li>
+            <li><a href="../index.html">Hjem</a></li>
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2024 4GILE Team</p>
+    </footer>
+</body>
+</html>
