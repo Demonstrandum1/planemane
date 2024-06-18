@@ -1,0 +1,21 @@
+planemane.png
+	size: 128, 32
+	repeat: none
+planeanimated
+	index: 1
+	bounds: 1, 1, 16, 16
+planeanimated
+	index: 2
+	bounds: 19, 1, 16, 16
+planeanimated
+	index: 3
+	bounds: 37, 1, 16, 16
+planeanimated
+	index: 4
+	bounds: 55, 1, 16, 16
+planeanimated
+	index: 5
+	bounds: 73, 1, 16, 16
+planeanimated
+	index: 6
+	bounds: 91, 1, 16, 16
