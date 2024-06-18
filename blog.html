@@ -11,6 +11,7 @@
             padding: 0;
             background-color: #f4f4f4;
             color: #333;
+            line-height: 1.6;
         }
         header, footer {
             background-color: #4CAF50;
@@ -24,8 +25,9 @@
             margin: auto;
             background-color: white;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
         }
-        h1 {
+        h1, h2, h3 {
             color: #4CAF50;
         }
         img {
@@ -33,14 +35,16 @@
             height: auto;
             display: block;
             margin: 1em 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         ul {
             list-style-type: none;
             padding: 0;
         }
         li {
-            display: inline;
-            margin: 0 1em;
+            display: block;
+            margin: 0.5em 0;
         }
         a {
             color: #4CAF50;
@@ -48,6 +52,15 @@
         }
         a:hover {
             text-decoration: underline;
+        }
+        .team-members {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .team-members li {
+            flex: 1 1 calc(25% - 1em);
+            margin: 0.5em;
         }
     </style>
 </head>
@@ -64,12 +77,11 @@
             <h2>Team og Roller</h2>
             <p><strong>Teamnavn:</strong> 4GILE</p>
             <p><strong>Gruppenummer:</strong> 5</p>
-            <p><strong>Teammedlemmer:</strong></p>
-            <ul>
-                <li>Tech lead: Magnus Haaland</li>
-                <li>Project lead: Ida Karoline Løken</li>
-                <li>Customer contact: Ole Eiane</li>
-                <li>Team lead: Hanna Søndenaa Rasmussen</li>
+            <ul class="team-members">
+                <li><strong>Tech lead:</strong> Magnus Haaland</li>
+                <li><strong>Project lead:</strong> Ida Karoline Løken</li>
+                <li><strong>Customer contact:</strong> Ole Eiane</li>
+                <li><strong>Team lead:</strong> Hanna Søndenaa Rasmussen</li>
             </ul>
         </section>
         <section>
@@ -84,8 +96,9 @@
                 <li><strong>Økt vanskelighetsgrad:</strong> Etter hvert som tiden går i spillet, øker sjansen for at rosa fugler dukker opp, og det samme gjelder energigjenstander og poengobjekter.</li>
                 <li><strong>Restart spillet:</strong> Hvis du taper, kan du starte spillet på nytt ved å trykke på 'Space'.</li>
             </ul>
-            <img src="path/to/screenshot1.jpg" alt="Skjermbilde av Plane Mane">
-            <img src="path/to/screenshot2.jpg" alt="Skjermbilde av Plane Mane">
+            <img src="path/to/velkomst.jpg" alt="Skjermbilde av Plane Mane">
+            <img src="path/to/spill.jpg" alt="Skjermbilde av Plane Mane">
+            <img src="path/to/gameover.jpg" alt="Skjermbilde av Plane Mane">
         </section>
         <section>
             <h2>Prosjektarbeid</h2>
