@@ -17,6 +17,31 @@
             padding: 1em 0;
             color: white;
             text-align: center;
+            position: relative;
+        }
+        nav {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 2em;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
         }
         main {
             padding: 2em;
@@ -63,6 +88,12 @@
 <body>
     <header>
         <h1>Velkommen til vårt prosjekt</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="blog.html">Blogg</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <h2>Plane Mane Game</h2>
