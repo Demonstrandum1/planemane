@@ -13,11 +13,36 @@
             color: #333;
             line-height: 1.6;
         }
-        header, footer {
+        header {
             background-color: #4CAF50;
             color: white;
             text-align: center;
             padding: 1em 0;
+            position: relative;
+        }
+        nav {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 2em;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
         }
         main {
             padding: 2em;
@@ -67,9 +92,13 @@
 <body>
     <header>
         <h1>Plane Mane – Et Eventyrlig Spillutviklingsprosjekt</h1>
-        <ul>
-            <li><a href="index.html">Til Hjemmesiden</a></li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="blog.html">Blogg</a></li>
+                <li><a href="https://github.com/demonstrandum1/planemane">Se prosjektet på GitHub</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section>
@@ -104,7 +133,7 @@
             <img src="gameover.png" alt="Skjermbilde av Plane Mane">
         </section>
         <section>
-            <h2>Prosjektarbeid</h2>
+            <h2>Prosjektarbeid</h3>
             <h3>Hvordan fungerer rollene i teamet?</h3>
             <p>Rollene i teamet vårt har fungert veldig bra. Vi trengte ikke oppdatere rollene som team lead (Hanna), tech lead (Magnus), kundekontakt (Ole) eller project lead (Ida). Hver rolle har klart ansvar som har hjulpet oss med å holde arbeidet strukturert og effektivt.</p>
         </section>
