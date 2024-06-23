@@ -1,5 +1,8 @@
 # INF112 - Gr.5 4GILE - Plane Mane
 
+## Website for this project is available at:
+https://demonstrandum1.github.io/planemane/
+
 ## General project-information
 
 > [!INFO] Team name and group information
